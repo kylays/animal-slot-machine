@@ -1,0 +1,77 @@
+/*
+Name: Kyla Yu-Swanson
+CS 132 Spring 2022
+Date: June 2, 2022
+This is the CSS file page for my page that generates a slot machine game.
+*/
+
+/*------------------------------Overall Style--------------------------------*/
+body {
+  background-color: rgb(233, 233, 233);
+}
+
+ul, p, nav, button, figcaption {
+  font-size: 20px;
+  font-family: 'Space Mono', 'PT Mono', monospace;
+}
+
+footer, header > h1, main > p, figcaption {
+  text-align: center;
+}
+
+#msg {
+  font-size: 30px;
+}
+
+footer, header > h1, a, a:visited {
+  color: black
+}
+
+footer, main {
+  padding: 15px;
+}
+
+main {
+  margin: 20px;
+  min-width: 1000px;
+}
+
+a, a:visited {
+  font-weight: bold;
+}
+
+button {
+  cursor: pointer;
+  margin: 20px auto;
+}
+
+figure > img, button {
+  display: block;
+}
+
+header > h1 {
+  font-family: 'Bungee Shade', 'Tourney', 'Vast Shadow', cursive;
+  font-size: 40px;
+  margin: 0px 5px;
+}
+
+main {
+  background-color: black;
+  color: rgb(233, 233, 233);
+}
+
+/*-----------------------------Animal Figures---------------------------------*/
+main > section {
+  display: flex;
+  justify-content: space-around;
+}
+
+figure > figcaption {
+  font-style: italic;
+}
+
+figure > img {
+  min-width: 200px;
+  max-height: 200px;
+  margin: auto;
+}
